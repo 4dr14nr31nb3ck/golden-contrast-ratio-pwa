@@ -1,10 +1,11 @@
-
 const cacheName = 'lichtberechnung-v1';
 const staticAssets = [
   './',
   './index.html',
   './manifest.json',
-  './service-worker.js'
+  './service-worker.js',
+  './icons/icon-192x192.png',
+  './icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
