@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lichtberechnung</title>
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="./manifest.json">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
+      navigator.serviceWorker.register('./service-worker.js')
         .then(() => console.log('Service Worker registriert'))
         .catch(err => console.error('Service Worker Fehler:', err));
     }
@@ -32,48 +32,15 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    label {
-      display: block;
-      margin-top: 15px;
-      font-weight: bold;
-    }
-    input, select, button {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    button {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 8px;
+    p {
       text-align: center;
-    }
-    th {
-      background-color: #007bff;
-      color: white;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Lichtberechnung mit Tag-/Nachtmodus</h1>
-    <!-- UI elements here -->
-    <p>Placeholder for UI.</p>
+    <p>Die App lädt korrekt. Anpassungen oder Interaktionen hier hinzufügen.</p>
   </div>
 </body>
 </html>

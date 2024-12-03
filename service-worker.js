@@ -1,3 +1,4 @@
+
 const cacheName = 'lichtberechnung-v1';
 const staticAssets = [
   './',
